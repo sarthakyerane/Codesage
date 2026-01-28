@@ -213,3 +213,5 @@ codesage/
 ## License
 
 MIT
+
+<!-- Updated: usage documentation and API reference -->
