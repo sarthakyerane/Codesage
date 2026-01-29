@@ -101,3 +101,5 @@ async def root():
             "tests": "POST /generate_tests",
         },
     }
+
+# v1.0 - production ready
