@@ -9,10 +9,9 @@
 CodeSage lets developers upload source code and ask questions about it in plain English. Instead of pasting your entire codebase into ChatGPT, CodeSage:
 
 - **Parses** your code into individual functions using tree-sitter AST
-- **Embeds** each function as a semantic vector
-- **Retrieves** only the most relevant functions for your query
-- **Analyzes** C++ code with a static analyzer for deterministic bug detection
-- **Sends** focused context + findings to an LLM for accurate fixes
+- **Embeds** each function as a semantic vector for RAG retrieval
+- **Analyzes** C++ code with a native static analyzer for deterministic bug detection
+- **Generates** complete unit tests and suggested fixes in any language
 
 ---
 
